@@ -1,5 +1,6 @@
 git config --global user.name 'Edwin Montoya'
 git config --global user.email 'emontoya@eafit.edu.co'
+git remote set-url origin https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/edwinm67/mlops-ejemplo2.git
 git add .
 set +e 
 git status | grep modified
